@@ -1,0 +1,2 @@
+final List<Integer> l1 = Arrays.asList(nums);
+System.out.printf("Original :%s%n",l1);
