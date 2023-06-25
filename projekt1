@@ -1,0 +1,4 @@
+   Connection con = DriverManager.getConnection(DATABASE_URL,
+      USERNAME,PASSWORD);
+   Statement stmt = con.createStatement();
+   ResultSet rs = stmt.executeQuery(SQL_QUERY)
